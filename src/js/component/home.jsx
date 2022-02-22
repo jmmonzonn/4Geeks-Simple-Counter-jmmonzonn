@@ -34,12 +34,7 @@ setInterval(function () {
 
 	counter++;
 	ReactDOM.render(
-		<Home
-			unit={one ? one : 0}
-			tens={two}
-			hundreds={three}
-			thousands={four}
-		/>,
+		<Home unit={one} tens={two} hundreds={three} thousands={four} />,
 		document.querySelector("#app")
 	);
 }, 1000);
