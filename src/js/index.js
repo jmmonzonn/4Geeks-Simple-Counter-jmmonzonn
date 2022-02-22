@@ -9,4 +9,7 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(
+	<Home unit={one} tens={two} hundreds={three} thousands={four} />,
+	document.querySelector("#app")
+);
